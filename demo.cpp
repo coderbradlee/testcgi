@@ -1,6 +1,7 @@
 #include <fcgi_stdio.h>
 #include <stdlib.h>
-int main()
+#include <stdio>
+using namespace std;
 {
 	int count=0;
 	while(FCGI_Accept()>=0)
