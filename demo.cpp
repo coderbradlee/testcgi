@@ -1,6 +1,6 @@
 #include <fcgi_stdio.h>
 #include <stdlib.h>
-#include <stdio>
+#include <iostream>
 using namespace std;
 {
 	int count=0;
