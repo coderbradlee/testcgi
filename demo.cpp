@@ -12,7 +12,9 @@ int main()
 	                // ""  
 	                // "FastCGI Hello!"  
 	                // "Request number %d running on host", ++count);  
-	                cout<<"Content-type: text/html\r\n\r\nFastCGI Hello!"<<endl;
+	                //cout<<"Content-type: text/html\r\n\r\nFastCGI Hello!"<<endl;
+	    fprintf(FCGI_stdout, "Content-Type: text/plain\n\n");
+        fprintf(FCGI_stdout, "demo.cpp");
 	}
 
 	return 0;
