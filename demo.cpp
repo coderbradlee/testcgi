@@ -9,7 +9,7 @@ int main()
                 "\r\n"  
                 ""  
                 "FastCGI Hello!"  
-                "Request number %d running on host%s ", ++count, getenv("HOSTNAME"));  
+                "Request number %d running on host", ++count);  
 }
 return 0;
 
