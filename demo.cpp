@@ -2,17 +2,19 @@
 #include <stdlib.h>
 #include <iostream>
 using namespace std;
+int main()
 {
 	int count=0;
 	while(FCGI_Accept()>=0)
-{
-	//printf("Content-type: text/html\r\n"  
-                // "\r\n"  
-                // ""  
-                // "FastCGI Hello!"  
-                // "Request number %d running on host", ++count);  
-                cout<<"test cgi"<<endl;
-}
-return 0;
+	{
+		//printf("Content-type: text/html\r\n"  
+	                // "\r\n"  
+	                // ""  
+	                // "FastCGI Hello!"  
+	                // "Request number %d running on host", ++count);  
+	                cout<<"test cgi"<<endl;
+	}
+
+	return 0;
 
 }
