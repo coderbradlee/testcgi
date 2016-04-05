@@ -9,8 +9,7 @@ int main()
                 "\r\n"  
                 ""  
                 "FastCGI Hello!"  
-                "Request number %d running on host%s "  
-                "Process ID: %d\n", ++count, getenv("SERVER_NAME"), getpid());  
+                "Request number %d running on host%s ", ++count, getenv("SERVER_NAME"));  
 }
 return 0;
 
